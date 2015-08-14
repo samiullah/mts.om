@@ -1,0 +1,16 @@
+<?php
+
+
+// function custom_helper_help($path, $arg) {
+//   switch ($path) {
+//     case 'admin/modules#description':
+//       return t('Provides helper functions');
+
+ // }
+//}
+function custom_helper_form_alter(&$form, &$form_state, $form_id) 
+{
+  if($form_id == 'add-quotes-node-form') {
+    $form['title']['#required'] = FALSE;
+  }
+}

@@ -1,0 +1,3 @@
+name = Custom Helper
+description = Provides helper functions
+core = 7.x
