@@ -115,7 +115,7 @@
 <?php if ($page['banner']) : ?>
 <!-- #banner -->
 <div id="banner" class="clearfix">
-    <div class="container">
+   
 
         <!-- #banner-inside -->
         <div id="banner-inside" class="clearfix">
@@ -131,7 +131,7 @@
         </div>
         <!-- EOF: #banner-inside -->
 
-    </div>
+  
 </div>
 <!-- EOF:#banner -->
 <?php endif; ?>
