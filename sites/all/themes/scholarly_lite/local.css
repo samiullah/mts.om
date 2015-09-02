@@ -1,6 +1,132 @@
 /* Custom CSS overrides */
+/*----------------------CSS for Slider -------------------*/
+.flex-pauseplay a:before {
+    font-family: "flexslider-icon";
+    font-size: 20px;
+    display: inline-block;
+    content: '\f004';
+    visibility: hidden ;
+}
+.title-slide a {
+    color: #fff !important;
+    text-decoration: none ;
+}
+.title-slide {
+    position: absolute;
+    top: 150px  ;
+    font-size: 32px;
+    background-color: #000000 !important;
+    opacity: 0.5;
+    width: 31%;
+    margin-left: 68px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 2px;
 
-.title-slide
+}
+.slide-view {
+    position: absolute;
+    top: 252px;
+    font-size: 53px;
+    background-color: black;
+    opacity: 0.8;
+    width: 31%;
+    margin-left: 68px;
+    text-align: center;
+}
+span.date-display-single {
+    color: #fff;
+}
+.slide-date {
+    top: 166px;
+    font-size: 39px;
+    background-color: #000 !important;
+    opacity: 0.5;
+    width: 33%;
+    margin-left: 59%;
+    position: relative;
+    text-align: center;
+    border-radius: 2px;
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+.title-slide a {
+    color: #fff;
+}
+.title-slide {
+    position: absolute;
+    top: 112px;
+    font-size: 24px;
+    background-color: black;
+    opacity: 0.5;
+    width: 31%;
+    margin-left: 68px;
+}
+.slide-view {
+    position: absolute;
+    top: 180px;
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.8;
+    width: 31%;
+    margin-left: 68px;
+    text-align: center;
+}
+span.date-display-single {
+    color: #fff;
+}
+.slide-date {
+    top: 166px;
+    font-size: 24px;
+    background-color: #000;
+    opacity: 0.5;
+    width: 33%;
+    margin-left: 59%;
+    position: relative;
+} }
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+}
+.flex-pauseplay a:before {visibility: hidden;}
+/********************** Generic classes ************************/
+.up {
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 15px;
+    color: #a4a4a4;
+    text-align: center;
+}
+.views-exposed-form {
+    color: #7d7d7d;
+    text-align: center;
+}
+.item-list ul li a {color:#7d7d7d; }
+.item-list ul li a:hover{color:#a4a4a4; text-decoration: none;}
+.item-list ul li {list-style: none;line-height: 2em;}
+
+.sidebar .more-link a, .block-views .more-link a {
+    font-size: 17px;
+    color: #666666;
+    text-decoration: none;}
+#testimonial{margin-top:3%;margin-bottom:1%;text-align: center; color:#666666;}
+#testimonial .up {border-bottom: 1px solid #fff; font-size: 48px; color:#000}
+#testimonial a.flex-next ,#testimonial a.flex-prev {visibility: hidden;}
+#testimonial .flex-control-nav {
+    width: 100%;
+    position: absolute;
+
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+}
+.fa-margin{margin:10px}
+/*.title-slide
 {
     position: absolute;
     top: 92px;
@@ -10,7 +136,7 @@
     width: 31%;
     margin-left: 68px;
 }
-
+/********************************************
 
 .slide-view
 {
@@ -23,14 +149,14 @@
     width: 31%;
     margin-left: 68px;
 
-}  
+}
 
-.title-slide a 
+.title-slide a
 {
     color: black;
 }
 
-    
+
     .slide-date
     {
     top: 92px;
@@ -41,7 +167,7 @@
     margin-left: 61%;
     position: relative;
     }
-
+*/
     *--services--*/
 .service-top h1 {
   font-size: 3em;
@@ -77,7 +203,7 @@
   line-height: 1.9em;
 }
 .services {
-  padding-top: 4em;
+  /*padding-top: 4em;*/
 }
 .service-top-in {
   padding: 1em 0 0;
@@ -86,8 +212,39 @@
   padding: 0 15px;
 }
 
- Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ /*Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) {
+    .title-slide a ,span.date-display-single{
+    color: #fff;
+}
+.slide-view {
+    position: absolute;
+    top: 93px;
+    font-size: 12px;
+    background-color: black;
+    opacity: 0.8;
+    width: 31%;
+    margin-left: 68px;
+    text-align: center;
+}
+.title-slide {
+    position: absolute;
+    top: 42px;
+    font-size: 12px;
+    background-color: #020202;
+    opacity: 0.5;
+    width: 31%;
+    margin-left: 68px;
+}
+.slide-date {
+    top: 92px;
+    font-size: 12px;
+    background-color: black;
+    opacity: 0.5;
+    width: 33%;
+    margin-left: 59%;
+    position: relative;
+}
 /* Styles */
 }
 
@@ -212,4 +369,9 @@ iPad 3
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
 /* Styles */
 }
-
+.view-featured-slider{
+    margin-bottom: -100px;
+}
+#edit-field-venue-tid-wrapper{
+    width:400px !important;
+}
