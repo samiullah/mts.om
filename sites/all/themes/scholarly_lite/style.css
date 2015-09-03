@@ -367,12 +367,12 @@
 
     #main-navigation ul.menu li {
         background: none;
-        margin: 0 8px;
+        margin: 0 10px;
         display:inline-block;
         float:none;
         background-color: #ccc;
         border-radius: 2px;
-        padding:15px;
+        padding:8px;
     }
 
     #main-navigation ul.menu li a { font-size: 14px; font-weight: 700; padding: 9px 10px; text-transform: uppercase; color: black; }

@@ -373,5 +373,54 @@ iPad 3
     margin-bottom: -100px;
 }
 #edit-field-venue-tid-wrapper{
-    width:400px !important;
+    max-width:440px !important;
+    width: 40% !important;
+}
+
+#block-views-exp-taxonomy-term-page{
+    background-color:#ccc !important;
+    padding:3px 5px 10px 22px !important;
+    border-radius: 2px !important;
+}
+#edit-field-course-title-value, #edit-field-venue-tid, #edit-field-dates-value-value-year, #edit-field-dates-value-value-month{
+    background: white !important;
+}
+.myfonticons{
+    padding:10px;
+    font-size:100px;
+    border-radius: 2px;
+    text-align: center;
+}
+.mycontainer{
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+.my-top-services{
+    float: left;
+    width:18%;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.fonticons{
+    float: left;
+    text-align: center;
+    clear: both;
+    width:100%;
+}
+.fonticons-text{
+    float: left;
+    text-align: center;
+    clear: both;
+    width:100%;
+    font-size: 18px;
+}
+#service_list{
+    float: left;
+    margin: 0px 20px;
+    width: 100%;
 }
