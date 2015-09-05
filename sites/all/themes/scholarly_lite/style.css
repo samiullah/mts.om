@@ -266,7 +266,7 @@
             #sidebar-first { margin-top: 0; }
     }
 
-    #bottom-content { padding: 30px 0 30px; background: #f2f2f2; margin: 40px 0 0 0; }
+    #bottom-content { padding: 30px 0 30px; /*background: #f2f2f2; */margin: 40px 0 0 0; }
 
     #footer-top { padding-top: 20px; background: #c2c2c2; }
 
@@ -366,19 +366,18 @@
     #main-navigation ul.menu { padding: 10px 0 20px 0; text-align: right; }
 
     #main-navigation ul.menu li {
-        background: none;
-        margin: 0 10px;
         display:inline-block;
         float:none;
         background-color: #ccc;
         border-radius: 2px;
         padding:8px;
+
     }
 
     #main-navigation ul.menu li a { font-size: 14px; font-weight: 700; padding: 9px 10px; text-transform: uppercase; color: black; }
 
-    #main-navigation ul.menu li a:hover { color: #000;background-color: none;  text-decoration: none; }
-
+    #main-navigation ul.menu li a:hover { color:blue; background-color: none;  text-decoration: none; }
+#main-navigation ul.menu li:hover { background-color: #eee;}
     #main-navigation ul.menu li.expanded > a:before, #main-navigation ul.menu li.collapsed > a:before { content: ""; }
 
     #main-navigation ul.menu ul.menu { display:none; }
